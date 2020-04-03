@@ -1,0 +1,89 @@
+body,html{
+    margin:0;
+    padding:0;
+
+    
+}
+
+
+.bg-one{
+    width:100vw;
+    height:100vh;
+    background-image: url(../images/shanghai.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color:white;
+        background-color:rgba(128, 128, 128, 0.8);
+        padding:12px;
+    }
+}
+
+.section{
+    background-color:rgba(17, 17, 17, 0.884);
+    color:white;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height:2em;
+    padding: 3em 0;
+    p{
+        width: 80%;
+        font-size:1.1em
+    }
+    
+}
+
+.bg-two{
+    background-image:url(../images/lights.jpg);
+    background-attachment: fixed;
+    background-position:bottom center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:40vh;
+    
+    h1{
+        color:white;
+    }
+}
+
+.bg-three{
+    background-image:url(../images/austria.jpg);
+    background-attachment: fixed;
+    background-position:top center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:40vh;
+
+    
+    h1{
+        color:white;
+    }
+}
+
+.bg-last{
+    width:100vw;
+    height:100vh;
+    background-image: url(../images/austria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color:white;
+        background-color:rgba(128, 128, 128, 0.8);
+        padding:12px;
+    }
+}

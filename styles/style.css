@@ -1,0 +1,119 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-one {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/shanghai.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-one h1 {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 12px;
+}
+
+.section {
+  background-color: rgba(17, 17, 17, 0.884);
+  color: white;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2em;
+  padding: 3em 0;
+}
+
+.section p {
+  width: 80%;
+  font-size: 1.1em;
+}
+
+.bg-two {
+  background-image: url(../images/lights.jpg);
+  background-attachment: fixed;
+  background-position: bottom center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 40vh;
+}
+
+.bg-two h1 {
+  color: white;
+}
+
+.bg-three {
+  background-image: url(../images/austria.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 40vh;
+}
+
+.bg-three h1 {
+  color: white;
+}
+
+.bg-last {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/austria.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-last h1 {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 12px;
+}
+/*# sourceMappingURL=style.css.map */
